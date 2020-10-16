@@ -11,7 +11,6 @@ Tip: Pokud byly již probrány podprogramy, vykreslujte jednotlivé vlajky pomoc
 vytvoreni projektu - SharpDevelop nebo Visual Studio
 
 
-
 unicode characters list: https://www.compart.com/en/unicode/block/U+2580
 
 full block https://www.fileformat.info/info/unicode/char/2588/index.htm
