@@ -8,8 +8,8 @@ Vytvořte program, který dá uživateli na výběr ze 3 vlajek (CZ, DE, US). U�
 Tip: Pokud byly již probrány podprogramy, vykreslujte jednotlivé vlajky pomocí vhodných podprogramů.
 
 
-pusteni 
-SharpDevelop
+vytvoreni projektu - SharpDevelop nebo Visual Studio
+
 
 
 unicode characters list: https://www.compart.com/en/unicode/block/U+2580
