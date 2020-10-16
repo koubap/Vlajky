@@ -39,12 +39,7 @@ namespace vlajky
 		
 		public void run() 
 	
-			//...nize bych rad udelal osetreni vstupu, kdyz se zada nevyhovujici znak + moznost zkusit znovu volbu vlajky
-		do{
-			int 1;
-			int 2;
-			int 3;
-			
+							
 			try {
 				Console.WriteLine(">>>VLAJKY<<<");			
 				Console.WriteLine("1 - CZ");
@@ -53,10 +48,7 @@ namespace vlajky
 				Console.Write("Volba:");
 				ConsoleKeyInfo cki = Console.ReadKey(true);
 			}
-			catch {
-				
-				
-			}
+			
 			switch (cki.Key) {
 				case ConsoleKey.D1:	
 					czechFlag();				
