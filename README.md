@@ -8,5 +8,4 @@ Vytvořte program, který dá uživateli na výběr ze 3 vlajek (CZ, DE, US). U�
 Tip: Pokud byly již probrány podprogramy, vykreslujte jednotlivé vlajky pomocí vhodných podprogramů.
 
 
-PETR KOUBA KOMENTÁŘ:
-Píšu to v SharpDevelop. V souboru vlajky.cs je to, co jsem už napsal. Ale nevím, jak napsat podmínku, aby se po zvolení libovol. klávesy objevilo menu znovu a uživatel mohl znovu zvolit vlajku. Taky se mi nedaří ošetřit vstup tak, aby to nespadlo při zadání nevyhovujícího znaku. 
+
