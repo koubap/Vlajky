@@ -37,17 +37,14 @@ namespace vlajky
 
 		
 		
-		public void run() 
+		public void run(){
 	
-							
-			try {
 				Console.WriteLine(">>>VLAJKY<<<");			
 				Console.WriteLine("1 - CZ");
 				Console.WriteLine("2 - DE");
 				Console.WriteLine("3 - US");			                  								
 				Console.Write("Volba:");
 				ConsoleKeyInfo cki = Console.ReadKey(true);
-			}
 			
 			switch (cki.Key) {
 				case ConsoleKey.D1:	
