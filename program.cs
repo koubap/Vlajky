@@ -11,6 +11,7 @@ using System;
 namespace vlajky
 {
 	class Program
+	//...tohle je pokus o vykresleni vlajky do konzole, ale nevim, jak napsat stejne rozmery
 	{
 		private void czechFlag() {
 			Console.WriteLine("\u2591\u2591\u2591\u2591");
@@ -34,13 +35,28 @@ namespace vlajky
 			Console.WriteLine("\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591");
 		}
 
-		public void run() {
-			Console.WriteLine(">>>VLAJKY<<<");			
-			Console.WriteLine("1 - CZ");
-			Console.WriteLine("2 - DE");
-			Console.WriteLine("3 - US");			                  								
-			Console.Write("Volba:");
-			ConsoleKeyInfo cki = Console.ReadKey(true);
+		
+		
+		public void run() 
+	
+			//...nize bych rad udelal osetreni vstupu, kdyz se zada nevyhovujici znak + moznost zkusit znovu volbu vlajky
+		do{
+			int 1;
+			int 2;
+			int 3;
+			
+			try {
+				Console.WriteLine(">>>VLAJKY<<<");			
+				Console.WriteLine("1 - CZ");
+				Console.WriteLine("2 - DE");
+				Console.WriteLine("3 - US");			                  								
+				Console.Write("Volba:");
+				ConsoleKeyInfo cki = Console.ReadKey(true);
+			}
+			catch {
+				
+				
+			}
 			switch (cki.Key) {
 				case ConsoleKey.D1:	
 					czechFlag();				
@@ -60,6 +76,8 @@ namespace vlajky
 		public static void Main(string[] args) {		
 			new Program().run();
 			
+		
+		Console.ReadKey(true);	
 			
 		}
 	}
